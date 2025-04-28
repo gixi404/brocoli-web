@@ -1,4 +1,6 @@
 import { Scissors, TrendingUp, Music, Camera, Heart } from "lucide-react";
+import jaja2 from "/jaja2.png";
+import jaja from "/jaja.jpeg";
 
 export default function Home() {
   return (
@@ -58,7 +60,7 @@ export default function Home() {
       <main className="container mx-auto px-4 py-8 max-w-3xl">
         <div className="mb-8">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Captura%20de%20pantalla%202025-03-12%20191044-Y8mssMKDmuC0mphl4oKAiUQ3owr1tm.png"
+            src={jaja2}
             alt="Jóvenes españoles con el corte brócoli"
             width={800}
             height={450}
@@ -168,10 +170,7 @@ export default function Home() {
             sociedad española contemporánea.
           </p>
           <div className="flex justify-center items-center ">
-            <img
-              src="../jaja.jpeg"
-              className="w-[200px] h-[200px] rounded-lg my-4"
-            />
+            <img src={jaja} className="w-[200px] h-[200px] rounded-lg my-4" />
           </div>
 
           <blockquote className="italic border-l-4 border-emerald-500 pl-4 my-6 text-gray-700">
