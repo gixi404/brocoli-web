@@ -1,0 +1,21 @@
+{
+  "name": "brocoli-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "lucide-react": "^0.503.0",
+    "preact": "^10.26.4",
+    "tailwindcss": "^4.1.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "vite": "^6.3.1"
+  }
+}
